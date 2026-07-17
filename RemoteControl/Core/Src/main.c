@@ -141,7 +141,7 @@ void RC_Start_Animation()
   HAL_Delay(1000);
   while(1)
   {
-    uint16_t i;
+    static uint16_t i = 0;
     OLED_ShowChinese_12X12(40,35,"车度空间");
     OLED_UpdateArea(40,35,i,12);
     if(i<12*2)
@@ -166,7 +166,7 @@ void RC_Start_Animation()
   OLED_Clear();
   while(1)
   {
-    uint16_t i;
+    static uint16_t i = 0;
     OLED_ShowChinese_16X16(0,20,"功能按键与平衡车");
     OLED_ShowChinese_16X16(35,36,"一一映射");
     OLED_UpdateArea(0,0,i,60);

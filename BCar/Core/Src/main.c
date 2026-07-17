@@ -267,9 +267,9 @@ void BCar_Start_Animation()
 	HAL_Delay(1500);
 	while(1)
 	{
-		uint16_t i;
+		static uint16_t i = 0;
 		OLED_ShowChinese_12X12(40,26,"车度空间");
-		OLED_UpdateArea(40,26,i,12);
+		if (i > 0) OLED_UpdateArea(40,26,i,12);
 		if(i<12*2)
 		{
 			HAL_Delay(16);i++;
@@ -287,10 +287,10 @@ void BCar_Start_Animation()
   OLED_UpdateArea(44,48,42,8);
   while(1)
   {
-    uint16_t i;
+    static uint16_t i = 0;
     OLED_ShowChinese_12X12(40,46,"除了");
     OLED_ShowString(64,48,"OLED",OLED_6X8);
-    OLED_UpdateArea(40,46,i,16);
+    if (i > 0) OLED_UpdateArea(40,46,i,16);
     if(i<16*2)
     {
       HAL_Delay(16);i++;
@@ -306,9 +306,9 @@ void BCar_Start_Animation()
   }
   while(1)
   {
-    uint16_t i;
+    static uint16_t i = 0;
     OLED_ShowChinese_12X12(30,46,"其余从零撰写");
-    OLED_UpdateArea(30,46,i,12);
+    if (i > 0) OLED_UpdateArea(30,46,i,12);
     if(i<12*3)
     {
       HAL_Delay(16);i++;

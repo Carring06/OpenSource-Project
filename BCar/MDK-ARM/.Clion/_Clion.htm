@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.Clion\_Clion.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .Clion\_Clion.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Fri Jul 17 16:08:11 2026
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Fri Jul 17 20:05:10 2026
 <BR><P>
 <H3>Maximum Stack Usage =        704 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -136,7 +136,7 @@ Global Symbols
 
 <P><STRONG><a name="[4e]"></a>_printf_p</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_p.o(.ARM.Collect$$_printf_percent$$00000002))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64 + Unknown Stack Size
-<LI>Call Chain = _printf_p &rArr; _printf_hex_ptr &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_p &rArr; _printf_hex_ptr &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_hex_ptr
 </UL>
@@ -164,7 +164,7 @@ Global Symbols
 
 <P><STRONG><a name="[54]"></a>_printf_a</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_a.o(.ARM.Collect$$_printf_percent$$00000006))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112 + Unknown Stack Size
-<LI>Call Chain = _printf_a &rArr; _printf_fp_hex &rArr; _printf_fp_hex_real &rArr; _printf_fp_infnan &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_a &rArr; _printf_fp_hex &rArr; _printf_fp_hex_real &rArr; _printf_fp_infnan &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_hex
 </UL>
@@ -173,70 +173,70 @@ Global Symbols
 
 <P><STRONG><a name="[56]"></a>_printf_i</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_i.o(.ARM.Collect$$_printf_percent$$00000008))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
-<LI>Call Chain = _printf_i &rArr; _printf_int_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_i &rArr; _printf_int_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
 </UL>
 
 <P><STRONG><a name="[58]"></a>_printf_d</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_d.o(.ARM.Collect$$_printf_percent$$00000009))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
-<LI>Call Chain = _printf_d &rArr; _printf_int_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_d &rArr; _printf_int_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
 </UL>
 
 <P><STRONG><a name="[59]"></a>_printf_u</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_u.o(.ARM.Collect$$_printf_percent$$0000000A))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
-<LI>Call Chain = _printf_u &rArr; _printf_int_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_u &rArr; _printf_int_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_dec
 </UL>
 
 <P><STRONG><a name="[5a]"></a>_printf_o</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_o.o(.ARM.Collect$$_printf_percent$$0000000B))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64 + Unknown Stack Size
-<LI>Call Chain = _printf_o &rArr; _printf_int_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_o &rArr; _printf_int_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_oct
 </UL>
 
 <P><STRONG><a name="[5c]"></a>_printf_x</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_x.o(.ARM.Collect$$_printf_percent$$0000000C))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80 + Unknown Stack Size
-<LI>Call Chain = _printf_x &rArr; _printf_int_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_x &rArr; _printf_int_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_hex
 </UL>
 
 <P><STRONG><a name="[5e]"></a>_printf_lli</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_lli.o(.ARM.Collect$$_printf_percent$$0000000D))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
-<LI>Call Chain = _printf_lli &rArr; _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_lli &rArr; _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_dec
 </UL>
 
 <P><STRONG><a name="[60]"></a>_printf_lld</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_lld.o(.ARM.Collect$$_printf_percent$$0000000E))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
-<LI>Call Chain = _printf_lld &rArr; _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_lld &rArr; _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_dec
 </UL>
 
 <P><STRONG><a name="[61]"></a>_printf_llu</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_llu.o(.ARM.Collect$$_printf_percent$$0000000F))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
-<LI>Call Chain = _printf_llu &rArr; _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_llu &rArr; _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_dec
 </UL>
 
 <P><STRONG><a name="[62]"></a>_printf_llo</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_llo.o(.ARM.Collect$$_printf_percent$$00000010))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56 + Unknown Stack Size
-<LI>Call Chain = _printf_llo &rArr; _printf_ll_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_llo &rArr; _printf_ll_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_ll_oct
 </UL>
 
 <P><STRONG><a name="[64]"></a>_printf_llx</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_llx.o(.ARM.Collect$$_printf_percent$$00000011))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64 + Unknown Stack Size
-<LI>Call Chain = _printf_llx &rArr; _printf_ll_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_llx &rArr; _printf_ll_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_ll_hex
 </UL>
@@ -245,14 +245,14 @@ Global Symbols
 
 <P><STRONG><a name="[66]"></a>_printf_c</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_c.o(.ARM.Collect$$_printf_percent$$00000013))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40 + Unknown Stack Size
-<LI>Call Chain = _printf_c &rArr; _printf_char &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_c &rArr; _printf_char &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char
 </UL>
 
 <P><STRONG><a name="[68]"></a>_printf_s</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_s.o(.ARM.Collect$$_printf_percent$$00000014))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40 + Unknown Stack Size
-<LI>Call Chain = _printf_s &rArr; _printf_string &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_pre_padding
+<LI>Call Chain = _printf_s &rArr; _printf_string &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_string
 </UL>
@@ -557,10 +557,10 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[81]"></a>_printf_str</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, _printf_str.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = _printf_str &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = _printf_str &rArr; _printf_post_padding
 </UL>
-<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
 </UL>
 <BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_cs_common
 </UL>
@@ -578,8 +578,8 @@ Global Symbols
 <P><STRONG><a name="[87]"></a>atoi</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, atoi.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = atoi &rArr; strtol &rArr; _strtoul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
-<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strtol
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strtol
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BlueSerial_Control
 </UL>
@@ -628,12 +628,12 @@ Global Symbols
 <P><STRONG><a name="[1e7]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
 <P><STRONG><a name="[88]"></a>__aeabi_errno_addr</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, rt_errno_addr_intlibspace.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__read_errno
-<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atoi
+<BR><BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atoi
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_value
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_strtoul
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strtol
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__read_errno
 </UL>
 
 <P><STRONG><a name="[1e8]"></a>__errno$intlibspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_errno_addr_intlibspace.o(.text), UNUSED)
@@ -653,9 +653,9 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atof
+<BR>[Called By]<UL><LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_tofloat
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atof
 <LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ldexp
-<LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_tofloat
 </UL>
 
 <P><STRONG><a name="[82]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, _printf_pad.o(.text))
@@ -691,7 +691,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[57]"></a>_printf_int_dec</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, _printf_dec.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = _printf_int_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = _printf_int_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_truncate_unsigned
@@ -724,7 +724,7 @@ Global Symbols
 <LI> vsprintf.o(.text)
 </UL>
 <P><STRONG><a name="[91]"></a>_printf_cs_common</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, _printf_char.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_cs_common &rArr; _printf_str &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_str
 </UL>
@@ -733,7 +733,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[67]"></a>_printf_char</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, _printf_char.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_char &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_char &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_cs_common
 </UL>
@@ -741,7 +741,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[69]"></a>_printf_string</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, _printf_char.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_string &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_string &rArr; _printf_cs_common &rArr; _printf_str &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_cs_common
 </UL>
@@ -751,15 +751,15 @@ Global Symbols
 <P><STRONG><a name="[92]"></a>_printf_wctomb</STRONG> (Thumb, 182 bytes, Stack size 56 bytes, _printf_wctomb.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = _printf_wctomb &rArr; _wcrtomb &rArr; __rt_ctype_table
 </UL>
-<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_wcrtomb
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_wcrtomb
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_lcs_common
 </UL>
 
 <P><STRONG><a name="[5f]"></a>_printf_longlong_dec</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, _printf_longlong_dec.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = _printf_longlong_dec &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ll_udiv10
@@ -770,7 +770,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[95]"></a>_printf_longlong_oct</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, _printf_oct_int_ll.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
 </UL>
@@ -779,7 +779,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[5b]"></a>_printf_int_oct</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, _printf_oct_int_ll.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_int_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_int_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_oct
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_truncate_unsigned
@@ -788,7 +788,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[63]"></a>_printf_ll_oct</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, _printf_oct_int_ll.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = _printf_ll_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = _printf_ll_oct &rArr; _printf_longlong_oct &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_oct
 </UL>
@@ -796,7 +796,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[96]"></a>_printf_longlong_hex</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, _printf_hex_int_ll_ptr.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
 </UL>
@@ -806,7 +806,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[5d]"></a>_printf_int_hex</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, _printf_hex_int_ll_ptr.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = _printf_int_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = _printf_int_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_hex
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_truncate_unsigned
@@ -815,7 +815,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[65]"></a>_printf_ll_hex</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, _printf_hex_int_ll_ptr.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_ll_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_ll_hex &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_hex
 </UL>
@@ -823,7 +823,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[4f]"></a>_printf_hex_ptr</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, _printf_hex_int_ll_ptr.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_hex_ptr &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_hex_ptr &rArr; _printf_longlong_hex &rArr; _printf_int_common &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_hex
 </UL>
@@ -841,9 +841,9 @@ Global Symbols
 <P><STRONG><a name="[89]"></a>strtol</STRONG> (Thumb, 112 bytes, Stack size 32 bytes, strtol.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = strtol &rArr; _strtoul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_strtoul
+<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_strtoul
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_ctype_table
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atoi
 </UL>
@@ -890,10 +890,10 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> strtod.o(.text)
 </UL>
 <P><STRONG><a name="[90]"></a>_printf_int_common</STRONG> (Thumb, 178 bytes, Stack size 32 bytes, _printf_intcommon.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = _printf_int_common &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = _printf_int_common &rArr; _printf_post_padding
 </UL>
-<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
 </UL>
 <BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_hex
 <LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_longlong_oct
@@ -906,23 +906,23 @@ Global Symbols
 <P><STRONG><a name="[a3]"></a>_printf_fp_dec_real</STRONG> (Thumb, 620 bytes, Stack size 104 bytes, _printf_fp_dec.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 324<LI>Call Chain = _printf_fp_dec_real &rArr; _fp_digits &rArr; _btod_etento &rArr; _btod_emul &rArr; _e2e
 </UL>
-<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_infnan
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_infnan
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_locale
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_digits
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
 </UL>
 <BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_dec
 </UL>
 
 <P><STRONG><a name="[a6]"></a>_printf_fp_hex_real</STRONG> (Thumb, 756 bytes, Stack size 72 bytes, _printf_fp_hex.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = _printf_fp_hex_real &rArr; _printf_fp_infnan &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = _printf_fp_hex_real &rArr; _printf_fp_infnan &rArr; _printf_post_padding
 </UL>
-<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_infnan
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_infnan
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
 <LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
 </UL>
 <BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_hex
 </UL>
@@ -961,8 +961,8 @@ Global Symbols
 <P><STRONG><a name="[9b]"></a>_strtoul</STRONG> (Thumb, 158 bytes, Stack size 40 bytes, _strtoul.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _strtoul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
-<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_chval
+<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_chval
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strtol
 </UL>
@@ -1005,10 +1005,10 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[a5]"></a>_printf_fp_infnan</STRONG> (Thumb, 112 bytes, Stack size 24 bytes, _printf_fp_infnan.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_fp_infnan &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = _printf_fp_infnan &rArr; _printf_post_padding
 </UL>
-<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_hex_real
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_dec_real
@@ -1052,12 +1052,12 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[b3]"></a>_scanf_really_hex_real</STRONG> (Thumb, 786 bytes, Stack size 80 bytes, scanf_hexfp.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = _scanf_really_hex_real &rArr; __support_ldexp &rArr; ldexp &rArr; __aeabi_cdcmpeq
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = _scanf_really_hex_real &rArr; __mathlib_narrow &rArr; __mathlib_tofloat &rArr; __aeabi_d2f
 </UL>
-<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__support_ldexp
-<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
-<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_narrow
+<BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_narrow
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_chval
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__support_ldexp
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_scanf_hex_real
 </UL>
@@ -1225,7 +1225,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[cb]"></a>BCar_Start_Animation</STRONG> (Thumb, 390 bytes, Stack size 16 bytes, main.o(i.BCar_Start_Animation))
+<P><STRONG><a name="[cb]"></a>BCar_Start_Animation</STRONG> (Thumb, 428 bytes, Stack size 16 bytes, main.o(i.BCar_Start_Animation))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BCar_Start_Animation &rArr; OLED_ShowString &rArr; OLED_ShowChar &rArr; OLED_ShowImage &rArr; OLED_ClearArea
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_UpdateArea
@@ -1248,12 +1248,12 @@ Global Symbols
 <P><STRONG><a name="[d2]"></a>BlueSerial_Control</STRONG> (Thumb, 466 bytes, Stack size 32 bytes, ble_uart.o(i.BlueSerial_Control))
 <BR><BR>[Stack]<UL><LI>Max Depth = 492<LI>Call Chain = BlueSerial_Control &rArr; atof &rArr; __strtod_int &rArr; _local_sscanf &rArr; _scanf_real &rArr; _scanf_really_real &rArr; _fp_value &rArr; _btod_etento &rArr; _btod_emul &rArr; _e2e
 </UL>
-<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atof
-<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+<BR>[Calls]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 <LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcmp
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strtok
 <LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atoi
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atof
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2f
 </UL>
 <BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1277,14 +1277,14 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 </UL>
 <BR>[Called By]<UL><LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Init
-<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteFIFO_Bytes
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 <LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadStatus
 <LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadFIFO_Bytes
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadByte
 <LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_TX
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_RX
+<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteFIFO_Bytes
+<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 </UL>
 
 <P><STRONG><a name="[be]"></a>ClearKeyEvents</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, main.o(i.ClearKeyEvents))
@@ -1302,7 +1302,11 @@ Global Symbols
 <P><STRONG><a name="[db]"></a>Complementary_Filter</STRONG> (Thumb, 384 bytes, Stack size 40 bytes, compfilter.o(i.Complementary_Filter))
 <BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = Complementary_Filter &rArr; atan2 &rArr; atan &rArr; __kernel_poly &rArr; __aeabi_dmul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
+<BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
 <LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
 <LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fsub
 <LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fadd
@@ -1311,10 +1315,6 @@ Global Symbols
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdcmple
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
-<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
-<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 </UL>
 <BR>[Called By]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
 </UL>
@@ -1341,9 +1341,9 @@ Global Symbols
 <P><STRONG><a name="[eb]"></a>EN_NRF24L01_RXMode</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, nrf24l01.o(i.EN_NRF24L01_RXMode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = EN_NRF24L01_RXMode &rArr; NRF24L01_WriteByte &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadByte
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadByte
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CE_PIN_Control
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 <LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Init
@@ -1352,9 +1352,9 @@ Global Symbols
 <P><STRONG><a name="[ee]"></a>EN_NRF24L01_TXALL_Mode</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, nrf24l01.o(i.EN_NRF24L01_TXALL_Mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = EN_NRF24L01_TXALL_Mode &rArr; NRF24L01_WriteByte &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadByte
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadByte
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CE_PIN_Control
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 </UL>
@@ -1392,8 +1392,8 @@ Global Symbols
 <P><STRONG><a name="[f1]"></a>FLASH_WaitForLastOperation</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, stm32f1xx_hal_flash.o(i.FLASH_WaitForLastOperation))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = FLASH_WaitForLastOperation
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_SetErrorCode
-<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_SetErrorCode
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_FLASHEx_Erase
 <LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_FLASH_Program
@@ -1485,7 +1485,6 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
 <LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_ON
 <LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_OFF
-<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SCK_PIN_Control
 <LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOSI_PIN_Set
 <LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CE_PIN_Control
@@ -1493,6 +1492,7 @@ Global Symbols
 <LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_LMotorSpeed
 <LI><a href="#[175]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_W_SDA
 <LI><a href="#[174]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OLED_W_SCL
+<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SCK_PIN_Control
 </UL>
 
 <P><STRONG><a name="[f2]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f1xx_hal.o(i.HAL_GetTick))
@@ -1500,7 +1500,6 @@ Global Symbols
 <LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
 <LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
 <LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
 <LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Mem_Write
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_I2C_Mem_Read
 <LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_WaitOnTXEFlagUntilTimeout
@@ -1508,6 +1507,7 @@ Global Symbols
 <LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_WaitOnMasterAddressFlagUntilTimeout
 <LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_WaitOnFlagUntilTimeout
 <LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_WaitOnBTFFlagUntilTimeout
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
 <LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_WaitOnFlagUntilTimeout
 </UL>
 
@@ -1574,9 +1574,9 @@ Global Symbols
 <P><STRONG><a name="[10b]"></a>HAL_Init</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, stm32f1xx_hal.o(i.HAL_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1808,15 +1808,15 @@ Global Symbols
 <LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_LMotorSpeed
 <LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_GetMR
 <LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Encoder_GetML
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PID_Update
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Complementary_Filter
 <LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbnf
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2iz
 <LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fsub
 <LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_fadd
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
-<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PID_Update
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Complementary_Filter
 </UL>
 <BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
 </UL>
@@ -1838,16 +1838,16 @@ Global Symbols
 <P><STRONG><a name="[13a]"></a>HAL_UART_IRQHandler</STRONG> (Thumb, 616 bytes, Stack size 24 bytes, stm32f1xx_hal_uart.o(i.HAL_UART_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_UART_IRQHandler &rArr; UART_Receive_IT &rArr; HAL_UART_RxCpltCallback
 </UL>
-<BR>[Calls]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
-<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort_IT
+<BR>[Calls]<UL><LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort_IT
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Abort
 <LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_TxCpltCallback
 <LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_ErrorCallback
 <LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UARTEx_RxEventCallback
 <LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Receive_IT
 <LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_EndRxTransfer
 </UL>
-<BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_IRQHandler
-<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_IRQHandler
+<BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART1_IRQHandler
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_IRQHandler
 </UL>
 
 <P><STRONG><a name="[142]"></a>HAL_UART_Init</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, stm32f1xx_hal_uart.o(i.HAL_UART_Init))
@@ -1990,12 +1990,12 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 <LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MPU6050_GetData0
-<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
-<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
 <LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Action_K2
 </UL>
@@ -2176,8 +2176,8 @@ Global Symbols
 <P><STRONG><a name="[168]"></a>NRF24L01_Flush_RX</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, nrf24l01.o(i.NRF24L01_Flush_RX))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = NRF24L01_Flush_RX &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Receive
 <LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Init
@@ -2186,8 +2186,8 @@ Global Symbols
 <P><STRONG><a name="[16a]"></a>NRF24L01_Flush_TX</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, nrf24l01.o(i.NRF24L01_Flush_TX))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = NRF24L01_Flush_TX &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 <LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Init
@@ -2196,14 +2196,14 @@ Global Symbols
 <P><STRONG><a name="[16b]"></a>NRF24L01_Init</STRONG> (Thumb, 118 bytes, Stack size 8 bytes, nrf24l01.o(i.NRF24L01_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = NRF24L01_Init &rArr; EN_NRF24L01_RXMode &rArr; NRF24L01_WriteByte &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SCK_PIN_Control
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
-<LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_TX
+<BR>[Calls]<UL><LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_TX
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_RX
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EN_NRF24L01_RXMode
 <LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CE_PIN_Control
+<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SCK_PIN_Control
+<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -2212,8 +2212,8 @@ Global Symbols
 <P><STRONG><a name="[ec]"></a>NRF24L01_ReadByte</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, nrf24l01.o(i.NRF24L01_ReadByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = NRF24L01_ReadByte &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EN_NRF24L01_TXALL_Mode
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EN_NRF24L01_RXMode
@@ -2222,8 +2222,8 @@ Global Symbols
 <P><STRONG><a name="[16e]"></a>NRF24L01_ReadFIFO_Bytes</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, nrf24l01.o(i.NRF24L01_ReadFIFO_Bytes))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = NRF24L01_ReadFIFO_Bytes &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Receive
 </UL>
@@ -2231,20 +2231,20 @@ Global Symbols
 <P><STRONG><a name="[16f]"></a>NRF24L01_ReadStatus</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, nrf24l01.o(i.NRF24L01_ReadStatus))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = NRF24L01_ReadStatus &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Receive
 </UL>
 
 <P><STRONG><a name="[170]"></a>NRF24L01_Receive</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, nrf24l01.o(i.NRF24L01_Receive))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = NRF24L01_Receive &rArr; NRF24L01_WriteByte &rArr; SSPI_SwapByte
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = NRF24L01_Receive &rArr; NRF24L01_ReadFIFO_Bytes &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
-<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadStatus
+<BR>[Calls]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadStatus
 <LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadFIFO_Bytes
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_RX
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -2253,13 +2253,13 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = NRF24L01_Send &rArr; NRF24L01_Init &rArr; EN_NRF24L01_RXMode &rArr; NRF24L01_WriteByte &rArr; SSPI_SwapByte
 </UL>
 <BR>[Calls]<UL><LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Init
-<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteFIFO_Bytes
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 <LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadStatus
 <LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_TX
 <LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EN_NRF24L01_TXALL_Mode
 <LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EN_NRF24L01_RXMode
+<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteFIFO_Bytes
+<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -2267,8 +2267,8 @@ Global Symbols
 <P><STRONG><a name="[ed]"></a>NRF24L01_WriteByte</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, nrf24l01.o(i.NRF24L01_WriteByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = NRF24L01_WriteByte &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Receive
@@ -2280,8 +2280,8 @@ Global Symbols
 <P><STRONG><a name="[16d]"></a>NRF24L01_WriteBytes</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, nrf24l01.o(i.NRF24L01_WriteBytes))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = NRF24L01_WriteBytes &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 <LI><a href="#[16b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Init
@@ -2290,8 +2290,8 @@ Global Symbols
 <P><STRONG><a name="[172]"></a>NRF24L01_WriteFIFO_Bytes</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, nrf24l01.o(i.NRF24L01_WriteFIFO_Bytes))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = NRF24L01_WriteFIFO_Bytes &rArr; SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CSN_PIN_Control
+<LI><a href="#[169]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SSPI_SwapByte
 </UL>
 <BR>[Called By]<UL><LI><a href="#[171]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Send
 </UL>
@@ -2520,18 +2520,18 @@ Global Symbols
 <P><STRONG><a name="[169]"></a>SSPI_SwapByte</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, nrf24l01.o(i.SSPI_SwapByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SSPI_SwapByte
 </UL>
-<BR>[Calls]<UL><LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SCK_PIN_Control
-<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOSI_PIN_Set
+<BR>[Calls]<UL><LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MOSI_PIN_Set
 <LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MISO_PIN_Read
+<LI><a href="#[16c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SCK_PIN_Control
 </UL>
-<BR>[Called By]<UL><LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteFIFO_Bytes
-<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
-<LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadStatus
+<BR>[Called By]<UL><LI><a href="#[16f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadStatus
 <LI><a href="#[16e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadFIFO_Bytes
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_ReadByte
 <LI><a href="#[16a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_TX
 <LI><a href="#[168]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_Flush_RX
+<LI><a href="#[172]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteFIFO_Bytes
+<LI><a href="#[16d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteBytes
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NRF24L01_WriteByte
 </UL>
 
 <P><STRONG><a name="[a]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.SVC_Handler))
@@ -2667,8 +2667,8 @@ Global Symbols
 <P><STRONG><a name="[187]"></a>__kernel_poly</STRONG> (Thumb, 170 bytes, Stack size 24 bytes, poly.o(i.__kernel_poly))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = __kernel_poly &rArr; __aeabi_dmul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
-<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<BR>[Calls]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 </UL>
 <BR>[Called By]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
 </UL>
@@ -2696,8 +2696,8 @@ Global Symbols
 <P><STRONG><a name="[18b]"></a>__mathlib_dbl_underflow</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, dunder.o(i.__mathlib_dbl_underflow))
 <BR><BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
 </UL>
-<BR>[Called By]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ldexp
-<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<BR>[Called By]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ldexp
 </UL>
 
 <P><STRONG><a name="[b1]"></a>__mathlib_narrow</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, narrow.o(i.__mathlib_narrow))
@@ -2712,9 +2712,9 @@ Global Symbols
 <P><STRONG><a name="[18c]"></a>__mathlib_tofloat</STRONG> (Thumb, 184 bytes, Stack size 24 bytes, narrow.o(i.__mathlib_tofloat))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = __mathlib_tofloat &rArr; __aeabi_d2f
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<BR>[Calls]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
 <LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdrcmple
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 <LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;frexp
 <LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdcmpeq
 </UL>
@@ -2737,9 +2737,7 @@ Global Symbols
 <P><STRONG><a name="[190]"></a>atan</STRONG> (Thumb, 474 bytes, Stack size 40 bytes, atan.o(i.atan))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = atan &rArr; __kernel_poly &rArr; __aeabi_dmul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<BR>[Calls]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
 <LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dsub
 <LI><a href="#[191]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_drsub
 <LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dadd
@@ -2747,6 +2745,8 @@ Global Symbols
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_fpclassify
 <LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
 <LI><a href="#[188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 </UL>
 <BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
 </UL>
@@ -2767,9 +2767,9 @@ Global Symbols
 <P><STRONG><a name="[d4]"></a>atof</STRONG> (Thumb, 42 bytes, Stack size 24 bytes, atof.o(i.atof))
 <BR><BR>[Stack]<UL><LI>Max Depth = 460<LI>Call Chain = atof &rArr; __strtod_int &rArr; _local_sscanf &rArr; _scanf_real &rArr; _scanf_really_real &rArr; _fp_value &rArr; _btod_etento &rArr; _btod_emul &rArr; _e2e
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__strtod_int
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__read_errno
-<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__strtod_int
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BlueSerial_Control
 </UL>
@@ -2791,11 +2791,11 @@ Global Symbols
 <P><STRONG><a name="[18f]"></a>ldexp</STRONG> (Thumb, 116 bytes, Stack size 24 bytes, ldexp.o(i.ldexp))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = ldexp &rArr; __aeabi_cdcmpeq
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
+<BR>[Calls]<UL><LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
+<LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_overflow
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__set_errno
 <LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_scalbn
 <LI><a href="#[18e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_cdcmpeq
-<LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
-<LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_overflow
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__support_ldexp
 </UL>
@@ -2846,11 +2846,11 @@ Global Symbols
 <LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Action_K2
 <LI><a href="#[196]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Action_K10
 <LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Action_K1
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_dmul
 <LI><a href="#[194]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2d
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_i2d
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ddiv
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_d2f
 </UL>
 <BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
@@ -2926,10 +2926,10 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MPU6050_Calibrate
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
 <LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Complementary_Filter
 <LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
 </UL>
 
 <P><STRONG><a name="[19f]"></a>_ddiv</STRONG> (Thumb, 552 bytes, Stack size 32 bytes, ddiv.o(x$fpl$ddiv), UNUSED)
@@ -2940,8 +2940,8 @@ Global Symbols
 <P><STRONG><a name="[18e]"></a>__aeabi_cdcmpeq</STRONG> (Thumb, 0 bytes, Stack size 32 bytes, deqf.o(x$fpl$deqf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = __aeabi_cdcmpeq
 </UL>
-<BR>[Called By]<UL><LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ldexp
-<LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_tofloat
+<BR>[Called By]<UL><LI><a href="#[18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_tofloat
+<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ldexp
 </UL>
 
 <P><STRONG><a name="[1a0]"></a>_dcmpeq</STRONG> (Thumb, 120 bytes, Stack size 32 bytes, deqf.o(x$fpl$deqf), UNUSED)
@@ -2995,20 +2995,20 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[199]"></a>__fpl_dnaninf</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, dnaninf.o(x$fpl$dnaninf), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[1a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dmul
-<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dcmple
-<LI><a href="#[19f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ddiv
+<BR><BR>[Called By]<UL><LI><a href="#[19f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ddiv
 <LI><a href="#[1a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dsub
 <LI><a href="#[19a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dadd
 <LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2f
+<LI><a href="#[1a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dmul
+<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dcmple
 <LI><a href="#[1a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dcmpeq
 </UL>
 
 <P><STRONG><a name="[19c]"></a>__fpl_dretinf</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, dretinf.o(x$fpl$dretinf), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[1a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_f2d
-<LI><a href="#[1a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dmul
-<LI><a href="#[19f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ddiv
+<BR><BR>[Called By]<UL><LI><a href="#[19f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ddiv
 <LI><a href="#[19a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dadd
+<LI><a href="#[1a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_f2d
+<LI><a href="#[1a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_dmul
 </UL>
 
 <P><STRONG><a name="[e5]"></a>__aeabi_cdrcmple</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, drleqf.o(x$fpl$drleqf))
@@ -3025,8 +3025,8 @@ Global Symbols
 <P><STRONG><a name="[191]"></a>__aeabi_drsub</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, daddsub_clz.o(x$fpl$drsb))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_drsub
 </UL>
-<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
-<LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<BR>[Called By]<UL><LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
 </UL>
 
 <P><STRONG><a name="[1a6]"></a>_drsb</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, daddsub_clz.o(x$fpl$drsb), UNUSED)
@@ -3037,9 +3037,9 @@ Global Symbols
 <P><STRONG><a name="[e7]"></a>__aeabi_dsub</STRONG> (Thumb, 0 bytes, Stack size 32 bytes, daddsub_clz.o(x$fpl$dsub))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = __aeabi_dsub
 </UL>
-<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
-<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Complementary_Filter
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Complementary_Filter
 <LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan2
 </UL>
 
 <P><STRONG><a name="[1a8]"></a>_dsub</STRONG> (Thumb, 464 bytes, Stack size 32 bytes, daddsub_clz.o(x$fpl$dsub), UNUSED)
@@ -3067,9 +3067,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1ab]"></a>_fadd</STRONG> (Thumb, 196 bytes, Stack size 16 bytes, faddsub_clz.o(x$fpl$fadd), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[1ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fsub1
-<LI><a href="#[198]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fretinf
+<BR><BR>[Calls]<UL><LI><a href="#[198]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fretinf
 <LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fnaninf
+<LI><a href="#[1ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fsub1
 </UL>
 
 <P><STRONG><a name="[1ad]"></a>__fpl_fcheck_NaN1</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, fcheck1.o(x$fpl$fcheck1))
@@ -3137,9 +3137,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[198]"></a>__fpl_fretinf</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, fretinf.o(x$fpl$fretinf), UNUSED)
-<BR><BR>[Called By]<UL><LI><a href="#[1b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fmul
+<BR><BR>[Called By]<UL><LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2f
+<LI><a href="#[1b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fmul
 <LI><a href="#[1ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fadd
-<LI><a href="#[197]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_d2f
 </UL>
 
 <P><STRONG><a name="[17f]"></a>__aeabi_cfrcmple</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, frleqf.o(x$fpl$frleqf))
@@ -3168,8 +3168,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[1b6]"></a>_fsub</STRONG> (Thumb, 234 bytes, Stack size 16 bytes, faddsub_clz.o(x$fpl$fsub), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[1b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fadd1
-<LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fnaninf
+<BR><BR>[Calls]<UL><LI><a href="#[1aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_fnaninf
+<LI><a href="#[1b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fadd1
 </UL>
 
 <P><STRONG><a name="[1]"></a>__ieee_status</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, istatus.o(x$fpl$ieeestatus))
@@ -3187,7 +3187,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[55]"></a>_printf_fp_hex</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, printf2.o(x$fpl$printf2))
-<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = _printf_fp_hex &rArr; _printf_fp_hex_real &rArr; _printf_fp_infnan &rArr; _printf_pre_padding
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = _printf_fp_hex &rArr; _printf_fp_hex_real &rArr; _printf_fp_infnan &rArr; _printf_post_padding
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_fp_hex_real
 </UL>
@@ -3205,12 +3205,12 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[19d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__fpl_dcheck_NaN1
 </UL>
 <BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Complementary_Filter
-<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ldexp
-<LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;frexp
 <LI><a href="#[18b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_underflow
 <LI><a href="#[18a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_overflow
 <LI><a href="#[188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__mathlib_dbl_infnan
 <LI><a href="#[190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atan
+<LI><a href="#[18f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ldexp
+<LI><a href="#[18d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;frexp
 </UL>
 
 <P><STRONG><a name="[139]"></a>__ARM_scalbnf</STRONG> (Thumb, 76 bytes, Stack size 0 bytes, scalbnf.o(x$fpl$scalbnf))
@@ -3228,7 +3228,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[b0]"></a>_scanf_hex_real</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, scanf2.o(x$fpl$scanf2))
-<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = _scanf_hex_real &rArr; _scanf_really_hex_real &rArr; __support_ldexp &rArr; ldexp &rArr; __aeabi_cdcmpeq
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = _scanf_hex_real &rArr; _scanf_really_hex_real &rArr; __mathlib_narrow &rArr; __mathlib_tofloat &rArr; __aeabi_d2f
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_scanf_really_hex_real
 </UL>
@@ -3462,11 +3462,11 @@ Local Symbols
 <P><STRONG><a name="[ab]"></a>_fp_value</STRONG> (Thumb, 588 bytes, Stack size 96 bytes, scanf_fp.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 220<LI>Call Chain = _fp_value &rArr; _btod_etento &rArr; _btod_emul &rArr; _e2e
 </UL>
-<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
-<LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee_status
+<BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ieee_status
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_emuld
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_edivd
 <LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_btod_etento
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_errno_addr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_scanf_really_real
 </UL>
