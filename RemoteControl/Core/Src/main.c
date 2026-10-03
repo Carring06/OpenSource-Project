@@ -300,7 +300,7 @@ int main(void)
     else
             displayKey = 0;
     if (ARC_CNT <= 3) {
-      OLED_ShowImage(0, 0, 16, 16, Signal_3);
+      OLED_ShowImage(0, 0, 16, 16, Sig nal_3);
     }
     else if (ARC_CNT <= 9) {
       OLED_ShowImage(0, 0, 16, 16, Signal_2);
